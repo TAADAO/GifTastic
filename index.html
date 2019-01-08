@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>The animal gif page</title>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
+    rel="stylesheet" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+    crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="./style.css">
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+  <script src="./gifs.js"></script>
+ 
+
+
+</head>
+
+<body>
+  <div class="container">
+
+    <!--Create intro panel-->
+
+    <div class="jumbotron">
+
+      <h1 class="text-center"><strong>Welcome to the animals page!</strong></h1>
+      <h2 class="text-center" id="instructions">Click the button to add gifs of animals! Or, type in an animal to add one!</h2>
+
+    </div>
+    <!--Create row where your panel of buttons will be pressed or added-->
+    <div class="row" id="buttonPanel">
+    </div>
+
+    <!--Next row will show the GIF images-->
+
+    <div class="row">
+
+      <div class="col-lg-10" id="gifPanel">
+      </div>
+
+      <!--Animal input form-->
+
+      <div class="col-lg-2 formPanel">
+        <form id="animal-form">
+          <label for="animal-input" class="inputLabel">Add an animal</label>
+          <input type="text" id="animal-input"><br>
+
+          <input id="add-animal" type="submit" value="Submit">
+        </form>
+      </div>
+
+    </div>
+  </div>
+  
+
+</body>
+
+</html>

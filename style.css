@@ -1,0 +1,105 @@
+body {
+	background-color: black;
+}
+
+.jumbotron {
+  position: relative;
+  background-color: red;
+  padding: 10px;
+  margin: 10px;
+}
+
+.jumbotron h1 {
+	font-size: 4em;
+  color: yellow;
+}
+
+.jumbotron h2 {
+	font-size: 2em;
+  color: white
+}
+
+.animalButton {
+  padding: 10px 20px;
+  font-size: 15px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #0c3312;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 6px #999;
+  display: inline;
+  margin: 5px 5px;
+}
+
+.animalButton:hover {
+  background-color: #4286f4
+}
+
+.animalButton:active {
+  background-color: #41c4f4;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+#gifPanel {
+  margin: 10px 0px 0px 0px;
+}
+
+.animalGif {
+  margin: 20px 20px 0px 0px;
+  float: left;
+  border-radius: 15px 50px;
+  position: relative;
+  left: -15px;
+  background-color: #41c4f4;
+}
+
+.animalGif:hover {
+  background-color: #41f45e;
+}
+
+.animalGif h2 {
+  font-size: 15px;
+  color: black;
+  text-align: center;
+  position: relative;
+  top: -3px;
+}
+
+.animalGif img {
+  border-radius: 15px 50px;
+}
+
+.formPanel {
+  position: relative;
+  top: 30px;
+  right: 35px;
+  border-radius: 15px 50px;
+  background-color: #41c4f4;
+  height: 145px;
+}
+
+.inputLabel {
+  font-size: 15px;
+  color: #fff;
+  margin: 15px 0px;
+  margin-left: 32px;
+}
+
+#animal-input {
+  width: 137px;
+  margin-left: 15px;
+}
+
+#animal-input:focus {
+  background-color: #41f45e;
+}
+
+#add-animal {
+  margin-top: 15px;
+  margin-left: 15px;
+  padding: 5px 45px;
+}
